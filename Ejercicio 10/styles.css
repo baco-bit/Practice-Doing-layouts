@@ -1,0 +1,57 @@
+/* your code here */
+.wrapper {
+	width: 1270px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 25px;
+}
+nav{
+	float: left;
+	text-align: center;
+	line-height: 260px;
+	width: 300px;
+}
+section{
+	float: right;
+	text-align: center;
+	line-height: 260px;
+	width: 960px;
+}
+
+/**************************************
+DON'T CHANGE ANYTHING AFTER THIS LINE
+**************************************/
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background: #2980b9;
+	color: #fff;
+	font-family: Helvetica;
+	text-align: center;
+	margin: 0;
+}
+
+header,
+nav,
+section {
+	border: 1px solid rgba(255, 255, 255, 0.8);
+	margin-bottom: 10px;
+	border-radius: 3px;
+}
+
+header {
+	padding: 10px 0;
+}
+
+nav,
+section {
+	padding: 100px 0;
+}
